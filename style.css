@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	position: relative;
+}
+
+header ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.img {
+	height: 70vh;
+	background-image: url(../images/golf.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	padding-top: .7rem;
+}
